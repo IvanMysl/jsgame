@@ -122,3 +122,15 @@ body {
   border: 1px solid #1c211b;
   cursor: pointer;
 }
+.hide{
+  opacity: 0;
+}
+.board__inner{
+
+}
+.circle{
+  background-image: url(./ball.svg);
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+}
