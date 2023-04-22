@@ -54,7 +54,7 @@ body {
   background-position: center bottom;
 }
 .game__title {
-  font-size: 48px;
+  font-size: 70px;
   background-color: #333;
   padding: 0 20px;
   border-radius: 20px;
@@ -72,7 +72,7 @@ body {
   border: 1px dashed #565f55;
 }
 .start:hover {
-  color: #33d816;
+  color: #00f7ff;
 }
 
 .screen {
@@ -108,7 +108,7 @@ body {
 .game__time {
   margin-bottom: 15px;
   font-size: 28px;
-  color: red;
+  color: rgb(249, 248, 246);
 }
 
 .board {
@@ -117,7 +117,8 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 500px;
   background-image: linear-gradient(90deg, #485563 0%, #598084 100%);
   border-radius: 30px;
@@ -153,17 +154,26 @@ body {
   .game__new {
     margin-bottom: 10px;
   }
-  .board{
+  .board {
     max-width: 768px;
   }
+  .start{
+    font-size: 25px;
+  }
 }
-@media screen and (max-width: 480px){
-  .board{
+@media screen and (max-width: 480px) {
+  .board {
     max-width: 480px;
   }
 }
-@media screen and (max-width: 320px){
-  .board{
+@media screen and (max-width: 320px) {
+  .board {
     max-width: 320px;
   }
-} 
+  .game__title {
+    font-size: 20px;
+  }
+  .start {
+    font-size: 17px;
+  }
+}
