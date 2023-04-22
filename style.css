@@ -153,4 +153,17 @@ body {
   .game__new {
     margin-bottom: 10px;
   }
+  .board{
+    max-width: 768px;
+  }
 }
+@media screen and (max-width: 480px){
+  .board{
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 320px){
+  .board{
+    max-width: 320px;
+  }
+} 
